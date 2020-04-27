@@ -28,7 +28,7 @@ nav ul li {
 
 img {
     width: 25%;
-    height: fit-content;
+    height: auto;
     float: left;
 }
 
@@ -38,12 +38,12 @@ img {
 
 #principal {
     float: left;
-    width: 70%;
+    width: 75%;
 }
 
 #secundario {
     float: left;
-    width: 30%;
+    width: 25%;
 }
 
 #secundario {
@@ -54,10 +54,10 @@ img {
 .rectangulo {
     display: block;
     float: left;
-    height: 150px;
-    width: 250px;
+    height: 70%;
+    width: 80%;
     background-color: #C55C24;
-    margin: 1em auto;
+    margin: 2em auto;
 }
 
 #footer {
