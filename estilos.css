@@ -1,8 +1,52 @@
+#cabecera {
+    display: flex;
+    width: 100%;
+}
+
+nav {
+    float: left;
+    clear: both;
+}
+
+nav ul li {
+    display: table-cell;
+    padding: 0.5em;
+}
+
+
+img {
+    width: 25%;
+    float: left;
+}
+
+#contenido {
+    display: flex;
+}
 
 #principal {
     float: left;
+    width: 70%;
 }
 
 #secundario {
     float: left;
+    width: 20%;
+}
+
+#secundario {
+    display: block;
+    background-color: orange;
+}
+
+#rectangulo {
+    display: block;
+    width: 30%;
+    height: 250px;
+    width: 100px;
+    background-color: orangered;
+}
+
+#footer {
+    float: left;
+    display: flex;
 }
