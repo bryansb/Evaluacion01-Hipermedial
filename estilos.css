@@ -3,14 +3,22 @@
     width: 100%;
 }
 
+#cabecera nav {
+    margin-left: auto;
+    margin-right: 5em;
+}
+
 nav {
     float: left;
     clear: both;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 nav ul li {
     display: table-cell;
     padding: 0.5em;
+    background-color: #B24334;
 }
 
 
@@ -35,7 +43,7 @@ img {
 
 #secundario {
     display: block;
-    background-color: orange;
+    background-color: #D9823B;
 }
 
 #rectangulo {
@@ -43,10 +51,25 @@ img {
     width: 30%;
     height: 250px;
     width: 100px;
-    background-color: orangered;
+    background-color: #C55C24;
 }
 
 #footer {
     float: left;
     display: flex;
+    clear: both;
+    width: 100%;
+}
+
+#cabecera, #footer {
+    background-color: #303E4F;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    width: 95%;
 }
